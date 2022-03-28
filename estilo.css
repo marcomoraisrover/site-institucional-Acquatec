@@ -36,12 +36,127 @@ body{
     font-weight: 1000;
 }
 
-/* .header h1 {
-    border: 3px solid green;
+.banner{
+    height: 500px;
+    background-image: url(imgs/bg-jelly-fish-para-home.png);
+    background-size: cover;
+    
 }
 
-.header li {
-    border: 3px solid green;
-} */
+.banner .container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
 
+.banner .container p{
+    width: 280px;
+    margin:0;
+    padding:0;
+    font-size: 36px;
+}
 
+.banner span{
+    font-weight: bolder;
+}
+
+h1 a{
+    text-decoration: none;
+    color: #32b9cd;
+}
+
+li a{
+    text-decoration: none;
+    color: #E3b062;
+}
+
+.form-box{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height: 30px;
+    border: 2px solid #32b9cd;
+    border-radius: 10px;
+}
+
+.btn{
+    font-family: monospace;
+    border: 0;
+    border-radius: 4px;
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 0;
+    color: white;
+    background-color: #e6005a;
+    width: 120px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.banner .card{
+    background-color: #e5e5e5;
+    height: 450px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #e6005a;
+}
+
+/* A partir daqui é o código é referente ao footer e missão, visão e valores */
+
+.social{
+    background-color: #e5e5e5;
+    padding: 50px 0;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 33%;
+}
+
+.box img{
+    width: 150px;
+    align-self: center;
+}
+
+.box h4{
+    color: #e6005a;
+    margin: 30px 0 0 0;
+}
+
+.box p{
+    color: black;
+}
+
+.social .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer{
+    background-color: #32b9cd;
+    height: 150px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.footer .container{
+    display: flex;
+    justify-content: center;
+}
+
+.footer h4{
+    margin: 0;
+    padding: 0;
+}
